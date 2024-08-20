@@ -14,7 +14,7 @@ const AboutUsPage = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className="bg-gray-800">
+      <div className="bg-gray-800" id="aboutus">
         <header className="bg-blue-600 text-white text-center py-12">
           <motion.h1
             className="text-4xl font-bold"
