@@ -48,6 +48,12 @@ const Navbar = () => {
               Contact
             </span>
           </Link>
+          {/* About Us Button */}
+          <Link href="#aboutus">
+            <button className="border border-lightblue text-lightblue px-4 py-2 rounded-md hover:bg-lightblue hover:text-darkblue transition">
+              About Us
+            </button>
+          </Link>
           <Link href="../api/login">
             <button className="border border-lightblue text-lightblue px-4 py-2 rounded-md hover:bg-lightblue hover:text-darkblue transition">
               Login
@@ -102,6 +108,12 @@ const Navbar = () => {
               Contact
             </span>
           </Link>
+          {/* About Us Button in Mobile Menu */}
+          <Link href="#aboutus" onClick={toggleNavbar}>
+            <button className="border border-lightblue text-lightblue px-4 py-2 rounded-md hover:bg-lightblue hover:text-darkblue transition">
+              About Us
+            </button>
+          </Link>
           <Link href="../api/login" onClick={toggleNavbar}>
             <button className="border border-lightblue text-lightblue px-4 py-2 rounded-md hover:bg-lightblue hover:text-darkblue transition">
               Login
@@ -119,3 +131,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+          
