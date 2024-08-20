@@ -23,7 +23,7 @@ const FeaturesSection = () => {
             </div>
             <h3 className="text-xl font-bold mb-4 text-white">Innovative AI Models</h3>
             <p className="text-white">
-              Access cutting-edge AI models that push the boundaries of what's possible in the Web3 space.
+              Access cutting-edge AI models that push the boundaries of whats possible in the Web3 space.
             </p>
           </div>
           <div className="bg-gray-400 p-8 rounded-lg shadow-lg text-center">
