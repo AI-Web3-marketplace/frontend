@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { AiOutlineHome, AiOutlineAppstore, AiOutlineDollar, AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineHome, AiOutlineAppstore, AiOutlineDollar, AiOutlineMail, AiOutlineInfoCircle } from 'react-icons/ai';
 import logo from './logo.svg';
 
 const Navbar = () => {
@@ -48,11 +48,11 @@ const Navbar = () => {
               Contact
             </span>
           </Link>
-          {/* About Us Button */}
           <Link href="#aboutus">
-            <button className="border border-lightblue text-lightblue px-4 py-2 rounded-md hover:bg-lightblue hover:text-darkblue transition">
+            <span className="flex items-center hover:text-lightblue cursor-pointer transition">
+              <AiOutlineInfoCircle className="mr-1" />
               About Us
-            </button>
+            </span>
           </Link>
           <Link href="../api/login">
             <button className="border border-lightblue text-lightblue px-4 py-2 rounded-md hover:bg-lightblue hover:text-darkblue transition">
@@ -108,11 +108,11 @@ const Navbar = () => {
               Contact
             </span>
           </Link>
-          {/* About Us Button in Mobile Menu */}
           <Link href="#aboutus" onClick={toggleNavbar}>
-            <button className="border border-lightblue text-lightblue px-4 py-2 rounded-md hover:bg-lightblue hover:text-darkblue transition">
+            <span className="flex items-center text-white hover:text-lightblue cursor-pointer transition">
+              <AiOutlineInfoCircle className="mr-1" />
               About Us
-            </button>
+            </span>
           </Link>
           <Link href="../api/login" onClick={toggleNavbar}>
             <button className="border border-lightblue text-lightblue px-4 py-2 rounded-md hover:bg-lightblue hover:text-darkblue transition">
@@ -131,4 +131,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-          
