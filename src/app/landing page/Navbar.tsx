@@ -69,6 +69,14 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-darkblue bg-opacity-90 fixed inset-0 z-50`}>
+        <div className="flex justify-between p-4">
+          <div className="flex items-center cursor-pointer">
+            <Image src={logo} alt="Quicklix Logo" width={100} height={100} />
+          </div>
+          <button onClick={toggleNavbar} className="text-white">
+            <FaTimes size={24} />
+          </button>
+        </div>
         <div className="flex flex-col items-center space-y-6 py-10">
           <Link href="/" onClick={toggleNavbar}>
             <span className="flex items-center text-white hover:text-lightblue cursor-pointer transition">
