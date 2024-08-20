@@ -23,7 +23,7 @@ const FeaturesSection = () => {
             </div>
             <h3 className="text-xl font-bold mb-4 text-white">Innovative AI Models</h3>
             <p className="text-white">
-              Access cutting-edge AI models that push the boundaries of whats possible in the Web3 space.
+              Access cutting-edge AI models that push the boundaries of what's possible in the Web3 space.
             </p>
           </div>
           <div className="bg-gray-400 p-8 rounded-lg shadow-lg text-center">
@@ -61,10 +61,10 @@ const FeaturesSection = () => {
             </div>
             <div>
               <h3 className="text-3xl font-bold mb-4 text-white">Seamless Integration</h3>
-              <p className="text-gray-300 mb-6">
+              <p className="text-white mb-6">
                 Quicklix offers a user-friendly interface and powerful APIs that make integrating AI models a breeze.
               </p>
-              <ul className="space-y-4">
+              <ul className="space-y-4 text-white">
                 <li className="flex items-center">
                   <div className="bg-lightblue p-3 rounded-full mr-4">
                     <FaCheck size={18} className="text-white" />
@@ -94,10 +94,10 @@ const FeaturesSection = () => {
             </div>
             <div className="order-1 md:order-2">
               <h3 className="text-3xl font-bold mb-4 text-white">Scalable and Flexible</h3>
-              <p className="text-gray-300 mb-6">
+              <p className="text-white mb-6">
                 Quicklix is designed to grow with your needs, offering scalable solutions and flexible pricing options.
               </p>
-              <ul className="space-y-4">
+              <ul className="space-y-4 text-white">
                 <li className="flex items-center">
                   <div className="bg-lightblue p-3 rounded-full mr-4">
                     <FaCheck size={18} className="text-white" />
@@ -127,10 +127,10 @@ const FeaturesSection = () => {
             </div>
             <div>
               <h3 className="text-3xl font-bold mb-4 text-white">Cutting-Edge AI Technology</h3>
-              <p className="text-gray-300 mb-6">
+              <p className="text-white mb-6">
                 Quicklix leverages the latest advancements in AI technology to deliver unparalleled performance and accuracy.
               </p>
-              <ul className="space-y-4">
+              <ul className="space-y-4 text-white">
                 <li className="flex items-center">
                   <div className="bg-lightblue p-3 rounded-full mr-4">
                     <FaCheck size={18} className="text-white" />
