@@ -62,7 +62,7 @@ const Navbar = () => {
         {/* Hamburger Menu Icon for Mobile */}
         <div className="md:hidden">
           <button onClick={toggleNavbar} className="text-white">
-            {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+            {isOpen ? <FaTimes size={24} /> }
           </button>
         </div>
       </div>
