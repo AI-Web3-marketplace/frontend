@@ -62,7 +62,7 @@ const Navbar = () => {
         {/* Hamburger Menu Icon for Mobile */}
         <div className="md:hidden">
           <button onClick={toggleNavbar} className="text-white">
-            {isOpen ? <FaTimes size={24} /> }
+            {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
         </div>
       </div>
@@ -70,9 +70,6 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-darkblue bg-opacity-90 fixed inset-0 z-50`}>
         <div className="flex flex-col items-center space-y-6 py-10">
-          <button onClick={toggleNavbar} className="text-white">
-            <FaTimes size={24} />
-          </button>
           <Link href="/" onClick={toggleNavbar}>
             <span className="flex items-center text-white hover:text-lightblue cursor-pointer transition">
               <AiOutlineHome className="mr-1" />
