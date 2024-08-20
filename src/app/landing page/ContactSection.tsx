@@ -65,7 +65,7 @@ const ContactSection = () => {
         <div className="mt-10 text-center">
           <h3 className="text-2xl font-bold mb-4">Other Ways to Reach Us</h3>
           <p className="text-gray-600 mb-2">Email: support@quicklix.com</p>
-          <p className="text-gray-600 mb-2">Phone: +91 81002184637</p>
+          <p className="text-gray-600 mb-2">Phone: +91 8100218463</p>
         </div>
       </div>
     </section>
